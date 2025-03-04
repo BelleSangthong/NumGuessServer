@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>Please enter a number here</p>
+<form method="POST" action="/guessgame">
+    <input name="guess" type="text" size="8" value=""/>
+    <input name="submit" type="submit" value="Send"/>
+</form>
+<p>Answer:</p>
+<p th:text="${text}">Replace this text</p>
+</body>
+</html>
